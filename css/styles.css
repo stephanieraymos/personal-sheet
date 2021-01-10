@@ -10,11 +10,10 @@ body{
     linear-gradient(90deg, rgb(215, 10, 79),rgb(25, 244, 226));
 }
 
-.iam {
+h1{
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
-  
   
   /* NAVIGATION */
   /* Add a black background color to the top navigation */
@@ -106,7 +105,7 @@ body{
   /* FLEX BOX */
   .flexbox-cont {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     /* SAME AS: 
     grid-template-columns: 1fr 1fr 1fr; */
     grid-gap: 1em;
