@@ -106,7 +106,7 @@ body{
   /* FLEX BOX */
   .flexbox-cont {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* SAME AS: 
     grid-template-columns: 1fr 1fr 1fr; */
     grid-gap: 1em;
@@ -118,6 +118,9 @@ body{
   .flex-item {
     border: white 3px solid;
     background-color: rgb(104, 40, 40);
+    text-align: center;
+    grid-column: 1/2;
+
 }
 
   
