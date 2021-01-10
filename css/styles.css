@@ -174,10 +174,11 @@ h1 {
 
 button {
     align-self: center;
-    padding: 5px;
+    padding: 8px;
     margin: 10px;
     background-color: black;
     color: white;
+    font-size: 25px;
 }
 
 .center {
