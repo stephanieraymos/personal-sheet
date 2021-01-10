@@ -8,8 +8,6 @@ body{
     linear-gradient(135deg, rgba(78, 23, 220,0.2) 0%, rgba(78, 23, 220,0.2) 16.667%,rgba(228, 183, 108,0.2) 16.667%, rgba(228, 183, 108,0.2) 33.334%,rgba(108, 55, 198,0.2) 33.334%, rgba(108, 55, 198,0.2) 50.001%,rgba(138, 87, 175,0.2) 50.001%, rgba(138, 87, 175,0.2) 66.668%,rgba(168, 119, 153,0.2) 66.668%, rgba(168, 119, 153,0.2) 83.335%,rgba(198, 151, 130,0.2) 83.335%, rgba(198, 151, 130,0.2) 100.002%),
     linear-gradient(67.5deg, rgba(78, 23, 220,0.2) 0%, rgba(78, 23, 220,0.2) 16.667%,rgba(228, 183, 108,0.2) 16.667%, rgba(228, 183, 108,0.2) 33.334%,rgba(108, 55, 198,0.2) 33.334%, rgba(108, 55, 198,0.2) 50.001%,rgba(138, 87, 175,0.2) 50.001%, rgba(138, 87, 175,0.2) 66.668%,rgba(168, 119, 153,0.2) 66.668%, rgba(168, 119, 153,0.2) 83.335%,rgba(198, 151, 130,0.2) 83.335%, rgba(198, 151, 130,0.2) 100.002%),
     linear-gradient(90deg, rgb(215, 10, 79),rgb(25, 244, 226));
-
-    height: 100%;
 }
 
 .iam {
@@ -108,16 +106,18 @@ body{
   /* FLEX BOX */
   .flexbox-cont {
     display: grid;
-    direction: row;
-    margin: 10px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    /* SAME AS: 
+    grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1em;
+    margin: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
   }
   
   .flex-item {
-    display: grid;
-    grid-template-rows: 1fr min-content;
-    grid-template-columns: 1fr 3fr;;
     border: white 3px solid;
     background-color: rgb(104, 40, 40);
 }
+
   
