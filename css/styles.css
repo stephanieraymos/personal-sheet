@@ -172,4 +172,18 @@ h1 {
     }
 }
 
+button {
+    align-self: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
