@@ -179,6 +179,7 @@ button {
     background-color: black;
     color: white;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .center {
